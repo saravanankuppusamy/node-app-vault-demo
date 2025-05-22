@@ -58,7 +58,7 @@ async function deleteCredentials(email) {
 (async () => {
   await saveCredentials('saravanan@sara.com', 'loveforever');
   await getCredentials('saravanan@sara.com');
- //await updateCredentials('saravanan@sara.com', 'nolovenever');
+  //await updateCredentials('saravanan@sara.com', 'nolovenever');
   //await getCredentials('saravanan@sara.com');
-  //await deleteCredentials('test@example.com');
+  //await deleteCredentials('saravanan@sara.com');
 })();
